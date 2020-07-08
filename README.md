@@ -94,4 +94,8 @@ After a Restart Project Edit and Sync & Restart Project Live, your bot should es
 Note that the `server.php` file has to be subscribed to the required HyperChat events as described in the previous section.
 
 ### DEPENDENCIES
-This application imports `inbenta/chatbot-api-connector` as a Composer dependency, that includes `symfony/http-foundation@^3.1` and `guzzlehttp/guzzle@~6.0` as dependencies too.
+This application uses these dependencies loaded through Composer:
+* [Inbenta's Chatbot API connector](https://github.com/inbenta-integrations/chatbot_api_connector)
+* [Firebase php-jwt](https://github.com/firebase/php-jwt) ^5.0
+
+It also uses the Smooch's API v1.1. You can find more information in the [official Smooch documentation](https://docs.smooch.io/rest).
